@@ -30,4 +30,9 @@ docker compose up -d
  kafka-console-consumer --bootstrap-server localhost:29092 --topic topicname
  ```
  
+  ### 6 - See past logs
+   ```bash
+ kafka-console-consumer --bootstrap-server localhost:29092 --topic topicname --from-begining
+ ```
+ 
  
